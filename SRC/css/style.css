@@ -22,7 +22,7 @@ ul li button{
 
 .container{
     position: relative;
-    width: 800px;
+    max-width: 800px;
     margin: auto;
     border: 1px solid black;
     
@@ -42,6 +42,9 @@ ul li button{
     width: 80%;
     height: 35px;
 }
+.btn{
+    height: 35px;
+}
 
 .container span{
     position: absolute;
@@ -57,5 +60,69 @@ ul li button{
     opacity: 1;
 }
 
+@media (max-width: 700px){
 
+    .container{
+        position: relative;
+        max-width: 800px;
+        margin: 30px auto;
+        border: 1px solid black;
+        
+    }
+    #newtask{
+        width: 89%;
+        height: 35px;
+        margin-top: 5px;
+    }
 
+    .container span{
+        position: absolute;
+        left: 39px;
+        top: 93px;
+        opacity: .5;
+        pointer-events: none;
+        transition: 1s;
+    }
+
+    .btn{
+      margin-top: 8px;  
+      position: static;
+      width: 89%;
+      height: 35px;
+        
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .container{
+        position: relative;
+        max-width: 800px;
+        margin: 30px auto;
+        border: 1px solid black;
+        
+    }
+    #newtask{
+        width: 89%;
+        height: 35px;
+    }
+
+    .container span{
+        position: absolute;
+        left: 25px;
+        top: 93px;
+        opacity: .5;
+        pointer-events: none;
+        transition: 1s;
+    }
+
+    .btn{
+      margin-top: 8px;  
+      position: static;
+      width: 89%;
+      height: 35px;
+        
+    }
+
+}
