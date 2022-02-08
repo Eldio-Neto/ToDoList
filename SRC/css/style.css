@@ -110,7 +110,7 @@ ul li button{
 
     .container span{
         position: absolute;
-        left: 25px;
+        left: 30px;
         top: 93px;
         opacity: .5;
         pointer-events: none;
@@ -125,4 +125,36 @@ ul li button{
         
     }
 
+}
+
+@media (max-width: 300px){
+
+    .container{
+        position: relative;
+        max-width: 800px;
+        margin: 30px auto;
+        border: 1px solid black;
+        
+    }
+    #newtask{
+        width: 89%;
+        height: 35px;
+    }
+
+    .container span{
+        position: absolute;
+        left: 20px;
+        top: 95px;
+        opacity: .5;
+        pointer-events: none;
+        transition: 1s;
+    }
+
+    .btn{
+      margin-top: 8px;  
+      position: static;
+      width: 89%;
+      height: 35px;
+        
+    }
 }
