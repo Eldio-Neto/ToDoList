@@ -3,6 +3,13 @@
 *{
     font-family: "Outfit", Arial, sans-serif;
 }
+
+body{
+    background: url(../images/paper-pencil-work-touch-business-usb.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
 ul{
     list-style: none;
 }
@@ -22,6 +29,7 @@ ul li button{
 
 .container{
     position: relative;
+    background-color: rgba(255, 255, 255, 0.644);
     max-width: 800px;
     margin: auto;
     border: 1px solid black;
